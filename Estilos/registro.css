@@ -1,0 +1,83 @@
+/*--------- Configuração da página de registro de estudos ---------*/
+
+h2 {
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+form {
+    border: 1px solid #ccc;
+    background: #bdb4b4;
+    border-radius: 10px;
+    width: 500px;
+    padding: 30px 5px;
+    box-shadow: 0px 5px 15px;
+    margin-bottom: 80px;
+}
+
+.area input, select, label {
+    font-family: poppins;
+    font-size: large;
+    width: 50%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.concluir {
+    font-family: poppins;
+    font-size: large;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.registrar {
+    font-family: poppins;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#direcionamento {
+    order: -1;
+    align-content: center;
+    align-self: center;
+    font-size: 1.2rem;
+    font-family: Poppins;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px 30px 30px 100px;
+    background-color: #bdb4b4;
+    color: black;
+    transition: 0.3s;
+    box-shadow: 0px 5px 15px;
+}
+
+#horario {
+    order: 1;
+    align-content: center;
+    align-self: center;
+    font-size: 0.85rem;
+    font-family: Poppins;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px 100px 100px 30px ;
+    background-color: #bdb4b4;
+    color: black;
+    transition: 0.3s;
+    box-shadow: 0px 5px 15px;
+}
+
+#horario:hover, #direcionamento:hover, .registrar:hover {
+    background-color: #7c7878;
+    transform: scale(1.1);
+    cursor: pointer;
+}

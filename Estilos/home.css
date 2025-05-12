@@ -1,0 +1,75 @@
+/*--------- Configuração da página principal e usada de base para as outras */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/Mídia/pexels-fauxels-3184464.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    width: 620px;
+    border-radius: 40px 10px;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    color: #b0daac;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.container p {
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    background: #bdb4b4;
+    border-radius: 10px;
+    height: 230px;
+    width: 250px;
+    padding: 5px 5px;
+    box-shadow: 0px 5px 15px;
+    transition: .2s;
+}
+
+.card button {
+    border: 1.2px solid black;
+    margin-top: 50px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-family: poppins;
+}
+
+.card:hover  {
+    background: #7c7878;
+    transform: scale(1.1);
+}
+
+.card button:hover {
+    background-color: #7c7878;
+    transform: scale(1.1);
+    cursor: pointer;
+}
